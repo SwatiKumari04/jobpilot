@@ -2,7 +2,7 @@
 
 Paste your resume → get matched to real jobs → see your **top 3 jobs for today** → chat with an **AI agent that remembers your preferences**.
 
-**Live demo:** https://YOUR-APP.onrender.com
+**Live demo:** https://jobpilot-rfxe.onrender.com
 **Stack:** Python · FastAPI · PostgreSQL + pgvector · Gemini (LLM + embeddings) · Docker · Render · GitHub Actions
 
 ## Features
