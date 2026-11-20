@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ee_backend_student",
+    "resume": "Ananya Rao | B.Tech Electrical Engineering, NIT Trichy (2023-2027), CGPA 8.1\nSkills: Python, C++, SQL, FastAPI, PostgreSQL, Docker, Git, Linux\nProjects: Built a REST API for a campus marketplace using FastAPI and PostgreSQL, deployed with Docker. Wrote a C++ order-matching simulator.\nAchievements: Solved 600+ DSA problems on LeetCode.",
+    "expected_skills": ["python", "c++", "sql", "fastapi", "postgresql", "docker", "git", "linux"],
+    "expected_seniority": "intern"
+  },
+  {
+    "id": "ml_fresher",
+    "resume": "Rahul Verma, Bengaluru. B.E. Computer Science 2025, PES University.\nInternship: ML Intern at a healthtech startup (6 months) - trained PyTorch models for medical text classification, built a RAG chatbot with embeddings and a vector database.\nSkills: Python, PyTorch, scikit-learn, NLP, LLMs, pandas, SQL.",
+    "expected_skills": ["python", "pytorch", "scikit-learn", "nlp", "llm", "pandas", "sql", "rag", "embeddings", "vector database"],
+    "expected_seniority": "fresher"
+  },
+  {
+    "id": "frontend_junior",
+    "resume": "Priya Nair - Frontend Developer, Pune. 1.5 years at an e-commerce company building React and TypeScript storefronts. Converted Figma designs into responsive pages with HTML/CSS and Tailwind. Wrote Jest unit tests. Familiar with Next.js and REST APIs.",
+    "expected_skills": ["react", "typescript", "figma", "html", "css", "testing", "next.js", "rest api"],
+    "expected_seniority": "junior"
+  },
+  {
+    "id": "devops_mid",
+    "resume": "Karan Singh. Site Reliability Engineer with 4 years of experience (Hyderabad). Run Kubernetes clusters on AWS, infrastructure as code with Terraform, CI/CD with GitHub Actions and Jenkins. Scripting in Python and Bash on Linux. Reduced cloud cost by 30%.",
+    "expected_skills": ["kubernetes", "aws", "terraform", "ci/cd", "python", "linux"],
+    "expected_seniority": "mid"
+  },
+  {
+    "id": "data_analyst_student",
+    "resume": "Meera Iyer, final-year B.Com student at Christ University, Bengaluru. Looking for a data analyst internship. Skills: Excel, SQL, Power BI, Python (pandas), statistics. Built a sales dashboard in Power BI for a college fest.",
+    "expected_skills": ["excel", "sql", "power bi", "python", "pandas", "statistics"],
+    "expected_seniority": "intern"
+  },
+  {
+    "id": "embedded_senior",
+    "resume": "Vikram Rao, Firmware Engineer, Chennai. 7 years writing embedded C and C++ for automotive microcontrollers (ARM Cortex-M), RTOS, device drivers for embedded Linux, Python test scripts. Led a team of 4.",
+    "expected_skills": ["c", "c++", "embedded", "linux", "python"],
+    "expected_seniority": "senior"
+  }
+]

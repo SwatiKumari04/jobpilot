@@ -1,0 +1,447 @@
+{
+  "summary": {
+    "keyword": {
+      "precision@10": 0.715,
+      "mrr": 0.8,
+      "ndcg@10": 0.731,
+      "paraphrase_ndcg@10": 0.489,
+      "p50_ms": 818.2
+    },
+    "vector": {
+      "precision@10": 0.975,
+      "mrr": 1.0,
+      "ndcg@10": 0.98,
+      "paraphrase_ndcg@10": 0.955,
+      "p50_ms": 1435.1
+    },
+    "hybrid": {
+      "precision@10": 0.885,
+      "mrr": 0.95,
+      "ndcg@10": 0.901,
+      "paraphrase_ndcg@10": 0.795,
+      "p50_ms": 921.1
+    }
+  },
+  "per_query": [
+    {
+      "mode": "keyword",
+      "query": "python backend developer fastapi postgresql",
+      "category": "backend",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "keyword",
+      "query": "java spring boot microservices engineer",
+      "category": "backend",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "keyword",
+      "query": "react typescript frontend developer",
+      "category": "frontend",
+      "p@10": 0.8,
+      "ndcg@10": 0.87
+    },
+    {
+      "mode": "keyword",
+      "query": "MERN full stack developer node express mongodb",
+      "category": "fullstack",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "keyword",
+      "query": "LLM engineer RAG embeddings",
+      "category": "ml_ai",
+      "p@10": 0.3,
+      "ndcg@10": 0.344
+    },
+    {
+      "mode": "keyword",
+      "query": "machine learning engineer pytorch",
+      "category": "ml_ai",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "keyword",
+      "query": "data analyst sql power bi",
+      "category": "data",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "keyword",
+      "query": "devops kubernetes terraform aws",
+      "category": "devops",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "keyword",
+      "query": "android kotlin developer",
+      "category": "mobile",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "keyword",
+      "query": "selenium test automation engineer",
+      "category": "qa",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "keyword",
+      "query": "embedded firmware microcontroller c",
+      "category": "embedded",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "keyword",
+      "query": "someone to create the server side of our app and its database",
+      "category": "backend",
+      "p@10": 0.8,
+      "ndcg@10": 0.87
+    },
+    {
+      "mode": "keyword",
+      "query": "make websites look beautiful and feel fast for users",
+      "category": "frontend",
+      "p@10": 0.6,
+      "ndcg@10": 0.615
+    },
+    {
+      "mode": "keyword",
+      "query": "one person who can handle both the screens and the server code",
+      "category": "fullstack",
+      "p@10": 0.4,
+      "ndcg@10": 0.364
+    },
+    {
+      "mode": "keyword",
+      "query": "build chatbots that understand language and answer from documents",
+      "category": "ml_ai",
+      "p@10": 0.0,
+      "ndcg@10": 0.0
+    },
+    {
+      "mode": "keyword",
+      "query": "turn numbers into charts and business insights for managers",
+      "category": "data",
+      "p@10": 0.4,
+      "ndcg@10": 0.547
+    },
+    {
+      "mode": "keyword",
+      "query": "keep production servers alive and automate releases",
+      "category": "devops",
+      "p@10": 0.0,
+      "ndcg@10": 0.0
+    },
+    {
+      "mode": "keyword",
+      "query": "create apps for smartphones",
+      "category": "mobile",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "keyword",
+      "query": "catch software defects before release",
+      "category": "qa",
+      "p@10": 0.0,
+      "ndcg@10": 0.0
+    },
+    {
+      "mode": "keyword",
+      "query": "program chips on circuit boards close to the hardware",
+      "category": "embedded",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "vector",
+      "query": "python backend developer fastapi postgresql",
+      "category": "backend",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "vector",
+      "query": "java spring boot microservices engineer",
+      "category": "backend",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "vector",
+      "query": "react typescript frontend developer",
+      "category": "frontend",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "vector",
+      "query": "MERN full stack developer node express mongodb",
+      "category": "fullstack",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "vector",
+      "query": "LLM engineer RAG embeddings",
+      "category": "ml_ai",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "vector",
+      "query": "machine learning engineer pytorch",
+      "category": "ml_ai",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "vector",
+      "query": "data analyst sql power bi",
+      "category": "data",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "vector",
+      "query": "devops kubernetes terraform aws",
+      "category": "devops",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "vector",
+      "query": "android kotlin developer",
+      "category": "mobile",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "vector",
+      "query": "selenium test automation engineer",
+      "category": "qa",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "vector",
+      "query": "embedded firmware microcontroller c",
+      "category": "embedded",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "vector",
+      "query": "someone to create the server side of our app and its database",
+      "category": "backend",
+      "p@10": 0.9,
+      "ndcg@10": 0.936
+    },
+    {
+      "mode": "vector",
+      "query": "make websites look beautiful and feel fast for users",
+      "category": "frontend",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "vector",
+      "query": "one person who can handle both the screens and the server code",
+      "category": "fullstack",
+      "p@10": 0.6,
+      "ndcg@10": 0.656
+    },
+    {
+      "mode": "vector",
+      "query": "build chatbots that understand language and answer from documents",
+      "category": "ml_ai",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "vector",
+      "query": "turn numbers into charts and business insights for managers",
+      "category": "data",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "vector",
+      "query": "keep production servers alive and automate releases",
+      "category": "devops",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "vector",
+      "query": "create apps for smartphones",
+      "category": "mobile",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "vector",
+      "query": "catch software defects before release",
+      "category": "qa",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "vector",
+      "query": "program chips on circuit boards close to the hardware",
+      "category": "embedded",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "hybrid",
+      "query": "python backend developer fastapi postgresql",
+      "category": "backend",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "hybrid",
+      "query": "java spring boot microservices engineer",
+      "category": "backend",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "hybrid",
+      "query": "react typescript frontend developer",
+      "category": "frontend",
+      "p@10": 0.9,
+      "ndcg@10": 0.936
+    },
+    {
+      "mode": "hybrid",
+      "query": "MERN full stack developer node express mongodb",
+      "category": "fullstack",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "hybrid",
+      "query": "LLM engineer RAG embeddings",
+      "category": "ml_ai",
+      "p@10": 0.9,
+      "ndcg@10": 0.934
+    },
+    {
+      "mode": "hybrid",
+      "query": "machine learning engineer pytorch",
+      "category": "ml_ai",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "hybrid",
+      "query": "data analyst sql power bi",
+      "category": "data",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "hybrid",
+      "query": "devops kubernetes terraform aws",
+      "category": "devops",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "hybrid",
+      "query": "android kotlin developer",
+      "category": "mobile",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "hybrid",
+      "query": "selenium test automation engineer",
+      "category": "qa",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "hybrid",
+      "query": "embedded firmware microcontroller c",
+      "category": "embedded",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "hybrid",
+      "query": "someone to create the server side of our app and its database",
+      "category": "backend",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "hybrid",
+      "query": "make websites look beautiful and feel fast for users",
+      "category": "frontend",
+      "p@10": 0.9,
+      "ndcg@10": 0.927
+    },
+    {
+      "mode": "hybrid",
+      "query": "one person who can handle both the screens and the server code",
+      "category": "fullstack",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "hybrid",
+      "query": "build chatbots that understand language and answer from documents",
+      "category": "ml_ai",
+      "p@10": 0.8,
+      "ndcg@10": 0.824
+    },
+    {
+      "mode": "hybrid",
+      "query": "turn numbers into charts and business insights for managers",
+      "category": "data",
+      "p@10": 0.5,
+      "ndcg@10": 0.63
+    },
+    {
+      "mode": "hybrid",
+      "query": "keep production servers alive and automate releases",
+      "category": "devops",
+      "p@10": 0.0,
+      "ndcg@10": 0.0
+    },
+    {
+      "mode": "hybrid",
+      "query": "create apps for smartphones",
+      "category": "mobile",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    },
+    {
+      "mode": "hybrid",
+      "query": "catch software defects before release",
+      "category": "qa",
+      "p@10": 0.7,
+      "ndcg@10": 0.779
+    },
+    {
+      "mode": "hybrid",
+      "query": "program chips on circuit boards close to the hardware",
+      "category": "embedded",
+      "p@10": 1.0,
+      "ndcg@10": 1.0
+    }
+  ]
+}

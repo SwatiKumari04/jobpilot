@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JobPilot · AI job agent</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header>
+  <h1>JobPilot ✈️</h1>
+  <p>An AI career agent: paste your resume, get matched jobs, chat with an agent that remembers you. <span id="stats"></span></p>
+</header>
+<main>
+  <section class="card" id="signup">
+    <h2>1 · Build your profile</h2>
+    <p class="muted">Paste your resume text. An LLM turns it into a structured profile (skills, roles, experience).</p>
+    <input id="name" placeholder="Your name (optional)" style="margin-bottom:8px">
+    <textarea id="resume" placeholder="Paste your resume text here..."></textarea>
+    <div class="row" style="margin-top:8px"><button id="createBtn">Build my profile</button><span id="signupMsg" class="muted"></span></div>
+  </section>
+
+  <section class="card hidden" id="profile">
+    <div class="row" style="justify-content:space-between"><h2 id="pName">Your profile</h2><button class="secondary" id="resetBtn">Use another resume</button></div>
+    <div id="pBody"></div>
+  </section>
+
+  <section class="card hidden" id="app">
+    <div class="tabs">
+      <button data-tab="digest" class="on">Today's top 3</button>
+      <button data-tab="search">Search</button>
+      <button data-tab="chat">Chat with agent</button>
+    </div>
+
+    <div id="tab-digest">
+      <div class="row"><button id="digestBtn">Get my top 3 jobs for today</button><span class="muted" id="digestMeta"></span></div>
+      <p id="digestSummary"></p><div id="digestList"></div>
+    </div>
+
+    <div id="tab-search" class="hidden">
+      <div class="row">
+        <input id="q" placeholder="e.g. python backend internship with LLMs">
+        <input id="loc" placeholder="City (optional)" style="max-width:170px">
+        <label class="muted"><input type="checkbox" id="remote" style="width:auto"> Remote only</label>
+        <button id="searchBtn">Search</button>
+      </div>
+      <p class="muted" id="searchMeta"></p><div id="results"></div>
+    </div>
+
+    <div id="tab-chat" class="hidden">
+      <div id="chatLog"><div class="msg bot">Hi! Tell me what you're looking for — e.g. "remote ML internships, I prefer Bengaluru, minimum 6 LPA". I'll remember your preferences.</div></div>
+      <div class="row" style="margin-top:8px"><input id="chatIn" placeholder="Ask JobPilot..."><button id="chatBtn">Send</button></div>
+    </div>
+  </section>
+</main>
+<footer>Real listings come from <a href="https://remotive.com" target="_blank" rel="noopener">Remotive</a>. Listings marked "demo" are synthetic test data.</footer>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

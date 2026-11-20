@@ -1,0 +1,295 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "embed_model": "gemini-embedding-2",
+  "prompt_version": "v1",
+  "resume_parsing": {
+    "n": 6,
+    "llm_success_rate": 1.0,
+    "first_try_valid_rate": 1.0,
+    "skill_precision": 0.884,
+    "skill_recall": 0.896,
+    "skill_f1": 0.881,
+    "seniority_accuracy": 0.833,
+    "p50_ms": 9683,
+    "cases": [
+      {
+        "id": "ee_backend_student",
+        "source": "llm",
+        "path": "native",
+        "first_try_valid": true,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "seniority_ok": true,
+        "predicted_seniority": "intern",
+        "profile": {
+          "headline": "B.Tech Electrical Engineering student at NIT Trichy skilled in Python backend",
+          "skills": [
+            "python",
+            "c++",
+            "sql",
+            "fastapi",
+            "postgresql",
+            "docker",
+            "git",
+            "linux"
+          ],
+          "target_roles": [
+            "Backend Engineer Intern",
+            "Software Engineer Intern",
+            "Software Developer"
+          ],
+          "years_experience": 0.0,
+          "seniority": "intern",
+          "locations": [],
+          "education": "B.Tech Electrical Engineering, NIT Trichy"
+        }
+      },
+      {
+        "id": "ml_fresher",
+        "source": "llm",
+        "path": "native",
+        "first_try_valid": true,
+        "precision": 1.0,
+        "recall": 0.7,
+        "f1": 0.824,
+        "seniority_ok": false,
+        "predicted_seniority": "intern",
+        "profile": {
+          "headline": "Computer Science student, Python and ML",
+          "skills": [
+            "python",
+            "pytorch",
+            "scikit-learn",
+            "nlp",
+            "llm",
+            "pandas",
+            "sql"
+          ],
+          "target_roles": [
+            "Machine Learning Engineer",
+            "ML Intern",
+            "NLP Engineer"
+          ],
+          "years_experience": 0.25,
+          "seniority": "intern",
+          "locations": [
+            "Bengaluru"
+          ],
+          "education": "B.E. Computer Science, PES University"
+        }
+      },
+      {
+        "id": "frontend_junior",
+        "source": "llm",
+        "path": "native",
+        "first_try_valid": true,
+        "precision": 0.875,
+        "recall": 0.875,
+        "f1": 0.875,
+        "seniority_ok": true,
+        "predicted_seniority": "junior",
+        "profile": {
+          "headline": "Frontend Developer with 1.5 years experience in React and TypeScript",
+          "skills": [
+            "react",
+            "typescript",
+            "javascript",
+            "html",
+            "css",
+            "testing",
+            "next.js",
+            "rest api"
+          ],
+          "target_roles": [
+            "Frontend Developer",
+            "React Developer",
+            "UI Developer"
+          ],
+          "years_experience": 1.5,
+          "seniority": "junior",
+          "locations": [
+            "Pune"
+          ],
+          "education": ""
+        }
+      },
+      {
+        "id": "devops_mid",
+        "source": "llm",
+        "path": "native",
+        "first_try_valid": true,
+        "precision": 0.857,
+        "recall": 1.0,
+        "f1": 0.923,
+        "seniority_ok": true,
+        "predicted_seniority": "mid",
+        "profile": {
+          "headline": "Site Reliability Engineer with 4 years of experience",
+          "skills": [
+            "kubernetes",
+            "aws",
+            "terraform",
+            "ci/cd",
+            "python",
+            "linux",
+            "infrastructure as code"
+          ],
+          "target_roles": [
+            "Site Reliability Engineer",
+            "DevOps Engineer",
+            "Cloud Engineer"
+          ],
+          "years_experience": 4.0,
+          "seniority": "mid",
+          "locations": [
+            "Hyderabad"
+          ],
+          "education": "Not specified"
+        }
+      },
+      {
+        "id": "data_analyst_student",
+        "source": "llm",
+        "path": "native",
+        "first_try_valid": true,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "seniority_ok": true,
+        "predicted_seniority": "intern",
+        "profile": {
+          "headline": "Final-year B.Com student skilled in SQL, Power BI, and Python",
+          "skills": [
+            "excel",
+            "sql",
+            "power bi",
+            "python",
+            "pandas",
+            "statistics"
+          ],
+          "target_roles": [
+            "Data Analyst Intern",
+            "Business Analyst Intern"
+          ],
+          "years_experience": 0.0,
+          "seniority": "intern",
+          "locations": [
+            "Bengaluru"
+          ],
+          "education": "B.Com, Christ University"
+        }
+      },
+      {
+        "id": "embedded_senior",
+        "source": "llm",
+        "path": "native",
+        "first_try_valid": true,
+        "precision": 0.571,
+        "recall": 0.8,
+        "f1": 0.667,
+        "seniority_ok": true,
+        "predicted_seniority": "senior",
+        "profile": {
+          "headline": "Firmware Engineer, 7 years embedded C/C++ and automotive microcontrollers",
+          "skills": [
+            "c",
+            "c++",
+            "embedded linux",
+            "embedded",
+            "device drivers",
+            "python",
+            "arm cortex-m"
+          ],
+          "target_roles": [
+            "Firmware Engineer",
+            "Embedded Software Engineer",
+            "Senior Firmware Engineer"
+          ],
+          "years_experience": 7.0,
+          "seniority": "senior",
+          "locations": [
+            "Chennai"
+          ],
+          "education": ""
+        }
+      }
+    ]
+  },
+  "digest": {
+    "n": 3,
+    "llm_rate": 1.0,
+    "first_try_valid_rate": 1.0,
+    "grounded_rate": 1.0,
+    "p50_ms": 8543,
+    "cases": [
+      {
+        "case": "ee_backend_student",
+        "source": "llm",
+        "first_try_valid": true,
+        "n_picks": 3,
+        "ms": 8543
+      },
+      {
+        "case": "ml_fresher",
+        "source": "llm",
+        "first_try_valid": true,
+        "n_picks": 3,
+        "ms": 9626
+      },
+      {
+        "case": "frontend_junior",
+        "source": "llm",
+        "first_try_valid": true,
+        "n_picks": 3,
+        "ms": 8400
+      }
+    ]
+  },
+  "agent": {
+    "n": 3,
+    "tool_selection_accuracy": 1.0,
+    "grounded_rate": 1.0,
+    "memory_ok": true,
+    "p50_ms": 19148,
+    "turns": [
+      {
+        "message": "Find me remote python backend internships",
+        "tools": [
+          "search_jobs"
+        ],
+        "right_tool": true,
+        "grounded": true,
+        "pref_saved": true,
+        "steps": 2,
+        "ms": 19148,
+        "reply": "Here are 2 remote backend and systems opportunities matching your profile:\n\n1. **[#217] Backend Engineer at Saffron Health**\n   - **Why it fits:** Uses your FastAPI and PostgreSQL stack in a remote setting.\n   - **Gap to work on:** Redis, Java, Spring Boot, and Django.\n\n2. **[#234] Embedded Systems "
+      },
+      {
+        "message": "From now on I only want jobs in Bengaluru or remote, and my minimum is 8 LPA",
+        "tools": [
+          "update_preferences",
+          "search_jobs"
+        ],
+        "right_tool": true,
+        "grounded": true,
+        "pref_saved": true,
+        "steps": 3,
+        "ms": 31741,
+        "reply": "I've saved your preference for Bengaluru or remote locations and a minimum salary of 8 LPA. Here are matching roles:\n\n1. **[#217] Backend Engineer at Saffron Health**\n   - **Why it fits:** Remote role with a salary of 7\u201316 LPA and uses your FastAPI/PostgreSQL stack.\n   - **Gap to work on:** Redis, J"
+      },
+      {
+        "message": "Tell me more about the first job you showed me",
+        "tools": [
+          "get_job_details"
+        ],
+        "right_tool": true,
+        "grounded": true,
+        "pref_saved": true,
+        "steps": 2,
+        "ms": 16487,
+        "reply": "Here are the full details for **[#217] Backend Engineer at Saffron Health**:\n\n- **Location & Salary:** Remote (India), 7\u201316 LPA (fresher / 0\u20131 years experience).\n- **What you'll do:** Build authentication systems, payment integrations, and background workers; scale services handling millions of dail"
+      }
+    ]
+  }
+}

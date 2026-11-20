@@ -1,0 +1,32 @@
+/* JobPilot UI styles */
+:root { --bg:#f6f7fb; --card:#fff; --ink:#151827; --muted:#626a80; --line:#e3e6ef; --brand:#3b5bdb; --good:#2b8a3e; --warn:#b35c00; --bad:#c92a2a; }
+* { box-sizing: border-box; }
+body { margin:0; font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; background:var(--bg); color:var(--ink); }
+header { background:var(--ink); color:#fff; padding:18px 20px; }
+header h1 { margin:0; font-size:20px; } header p { margin:4px 0 0; color:#c5c9d6; font-size:13px; }
+main { max-width:900px; margin:0 auto; padding:18px 14px 60px; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px; margin-bottom:14px; }
+h2 { font-size:16px; margin:0 0 10px; }
+input, textarea { width:100%; padding:9px 11px; border:1px solid var(--line); border-radius:8px; font:inherit; background:#fff; }
+textarea { min-height:150px; resize:vertical; }
+button { background:var(--brand); color:#fff; border:0; border-radius:8px; padding:9px 14px; font:inherit; cursor:pointer; }
+button.secondary { background:#eef1fb; color:var(--brand); }
+button:disabled { opacity:.55; cursor:wait; }
+.row { display:flex; gap:8px; align-items:center; flex-wrap:wrap; } .row > input { flex:1; min-width:160px; }
+.muted { color:var(--muted); font-size:13px; }
+.chip { display:inline-block; background:#eef1fb; color:#2d3a8c; border-radius:999px; padding:1px 9px; margin:2px 3px 2px 0; font-size:12px; }
+.chip.miss { background:#fff4e6; color:var(--warn); }
+.tabs { display:flex; gap:6px; margin-bottom:12px; }
+.tabs button { background:#e9ecf5; color:var(--ink); } .tabs button.on { background:var(--brand); color:#fff; }
+.job { border:1px solid var(--line); border-radius:10px; padding:12px; margin:10px 0; background:#fff; }
+.job h3 { margin:0; font-size:15px; } .job .meta { color:var(--muted); font-size:13px; margin:2px 0 6px; }
+.why { margin:6px 0; padding-left:18px; color:var(--good); font-size:13px; }
+.badge { font-size:11px; padding:1px 7px; border-radius:6px; margin-left:6px; vertical-align:middle; }
+.demo { background:#f1f3f5; color:#495057; } .ghost { background:#ffe3e3; color:var(--bad); } .fit { background:#ebfbee; color:var(--good); }
+.actions { display:flex; gap:6px; margin-top:8px; } .actions button, .actions a { font-size:13px; padding:5px 10px; }
+.actions a { background:#eef1fb; color:var(--brand); border-radius:8px; text-decoration:none; }
+.msg { padding:10px 12px; border-radius:10px; margin:8px 0; white-space:pre-wrap; }
+.msg.user { background:#eef1fb; margin-left:15%; } .msg.bot { background:#fff; border:1px solid var(--line); margin-right:5%; }
+.trace { font-size:12px; color:var(--muted); margin-top:4px; }
+.hidden { display:none; } .err { color:var(--bad); }
+footer { text-align:center; color:var(--muted); font-size:12px; padding:20px; }
